@@ -1,0 +1,16 @@
+let sum = 0;
+let average = 0;
+let random1 = Math.floor(Math.random()*100);
+let random2 = Math.floor(Math.random()*100);
+let random3 = Math.floor(Math.random()*100);
+let random4 = Math.floor(Math.random()*100);
+let random5 = Math.floor(Math.random()*100);
+sum = (random1 + random2 + random3 + random4 + random5);
+average = sum/5;
+console.log("Random Value 1: " + random1);
+console.log("Random Value 2: " + random2);
+console.log("Random Value 3: " + random3);
+console.log("Random Value 4: " + random4);
+console.log("Random Value 5: " + random5);
+console.log("sum  is : " + sum);
+console.log("average  is : " + average);
